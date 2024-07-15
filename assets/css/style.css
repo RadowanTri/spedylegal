@@ -925,7 +925,7 @@ ul {
   font-size: 14px;
   font-weight: 400;
   border-radius: 30px;
-  border: 1px solid transparent;
+  border: 1px solid;
   background: transparent;
   position: relative;
   padding: 11px 30px;
@@ -1052,7 +1052,7 @@ ul {
 .border-color-2{
   color: #007CE0;
 }
-.border-color-2{
+.border-color-3{
   color: #7C2A90;
 }
 .bg-1{
@@ -1364,7 +1364,7 @@ border-radius: 70px 0px 70px 70px;
   width: 19px;
   height: 19px;
   left: 20px;
-  top: 8px;
+  top: 10px;
   text-align: center;
 }
 .plan-wrapper .price-list li.check-item:before {
@@ -1408,11 +1408,11 @@ border-radius: 70px 0px 70px 70px;
   border-bottom: 13px solid transparent;
   border-right: 13px solid #7C2A90;
 }
-.price-btn .common-btn{
+.price-btn .common-btn-2{
   font-weight: 500;
 }
-.price-btn .common-btn-1:hover{
-  color: transparent;
+.border-dots{
+  border-top: 1px dotted #ddd;
 }
 
 .work-wrapper {
