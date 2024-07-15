@@ -1,0 +1,15 @@
+@media (min-width: 320px) and (max-width: 1200px) {
+  .testimonial-area .activaties-inner {
+      position: relative;
+      min-height: auto;
+      padding: 2rem 15px;
+      flex-direction: column;
+  }
+      .testimonial-area .testimonial-slider.owl-carousel{
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        transform: translateY(0%);
+    }
+
+}
