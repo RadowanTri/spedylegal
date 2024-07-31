@@ -1036,13 +1036,13 @@ ul {
 .color-1{
   color: #D49123 !important;
 }
-.color-3{
+.color-4{
   color: #848484;
 }
 .color-2{
   color: #007CE0;
 }
-.color-4{
+.color-3{
   color: #7C2A90;
 }
 
@@ -1051,10 +1051,10 @@ ul {
 }
 
 .border-color-2{
-  color: #007CE0;
+  border-color: #007CE0;
 }
 .border-color-3{
-  color: #7C2A90;
+  border-color: #7C2A90;
 }
 .bg-1{
   background: #7C2A90;
@@ -1393,7 +1393,6 @@ border-radius: 70px 0px 70px 70px;
   left: 0;
   width: 30%;
   display: flex;
-  display: flex;
   padding: 0px 15px;
   align-items: center;
   top: 5%;
@@ -1493,7 +1492,7 @@ border-radius: 70px 0px 70px 70px;
 
 
 .testimonial-area  .testimonial-slider.owl-carousel {
-  width: 55%;
+  width: 60%;
   z-index: 1;
   position: absolute;
   top: 0rem;
@@ -1599,3 +1598,15 @@ border-radius: 70px 0px 70px 70px;
 
  }
 
+.footer-area p,
+.footer-area a{
+  color: #FFF;
+}
+.f-address p,
+.footer-link li{
+  margin-bottom: 5px;
+}
+.f-address img{
+    width: 18px;
+    margin-right: 4px;
+}

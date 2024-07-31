@@ -1,5 +1,33 @@
 @media (min-width: 320px) and (max-width: 1200px) {
-  .testimonial-area .activaties-inner {
+    .banner-area .banner-content h1 {
+        font-size: 35px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+        line-height: 40.28px;
+        letter-spacing: 0.15em;
+        margin-bottom: 30px;
+    }
+    .content-title {
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .choose-item br{
+        display: none;
+    }
+    .most-popular {
+        width: 45%;
+        padding: 0px 10px;
+        top: 0%;
+    }
+    .counter-wrapper {
+        padding: 15px;
+    }
+    .experience-content {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 15px;
+    }
+    .testimonial-area .activaties-inner {
       position: relative;
       min-height: auto;
       padding: 2rem 15px;
@@ -12,4 +40,9 @@
         transform: translateY(0%);
     }
 
+    .testimonial-area .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 20px;
+         position: relative; 
+         left: -0%; 
+    }
 }
