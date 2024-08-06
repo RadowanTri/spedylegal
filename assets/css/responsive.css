@@ -46,4 +46,18 @@
          position: relative; 
          left: -0%; 
     }
+    .header-area .search-wrapper {
+        display: none;
+    }
+    .banner-carousel .owl-dots {
+        bottom: -53%;
+    }
+    .inner-shadow-text {
+        font-size: 50px;
+    }
+    .get-touch::after {
+
+        top: -34px;
+    }
+    
 }
