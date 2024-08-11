@@ -75,62 +75,78 @@
     </nav>
     
   </header>
-  <main>
-    <section class="page-header about-page-header">
-      <!-- Header Start -->
-      <div class="container">
-        <div class="d-flex align-items-center justify-content-between">
-          <h1 class="text-white">Our Pricing</h1>
-          <nav aria-label="breadcrumb">
-              <ol class="breadcrumb justify-content-center">
-                  <li class="breadcrumb-item"><a class="color-4" href="index.html">Home</a></li>
-                  <li class="breadcrumb-item text-white"><a class="color-4" href="pricing.html">Our Pricing</a></li>
-                  <li class="breadcrumb-item text-white active" aria-current="page">Checkout</li>
-              </ol>
-          </nav>
-      </div>
-      </div>
-    </section>
-    <!-- banner-area end  -->
 
-    <section class="payment sec-padding-70">
-      <div class="container">
-        <div class="section-title text-center border-bottom border-color-3">
-          <h2>Enter Payment Info</h2>
-        </div>
-        <div class="text-center py-5">
-          <h5>Select a Payment Option</h5>
-          <div class="py-5 payment-wrapper">
-            <a href="#">
-              <img src="assets/images/paypal icon.png" alt="">
-            </a>
-            <a href="#">
-              <img src="assets/images/visa icon.png" alt="">
-            </a>
-            <a href="#">
-              <img src="assets/images/master card icon.png" alt="">
-            </a>
-          </div>
-         
-          <div class="pt-4">
-            <p>You will be charged  for our  every Plan</p>
-
-            <div class="payment-option pt-3">
-
-              <button class="common-btn-2 border-color-1 color-1 w-25 me-3"> Back</button>
-              <button class="common-btn w-25">Continue</button>
+  <main id="login">
+    <section class="login-wrapper">
+        <div class="container">
+            <input type="checkbox" id="flip">
+            <div class="cover">
+              <div class="front">
+                <img src="assets/images/frontImg.jpg" alt="login">
+                <div class="text">
+                  <span class="text-1">Every new member is a <br> new adventure</span>
+                  <span class="text-2">Let's get connected</span>
+                </div>
+              </div>
+              <div class="back">
+                <img class="backImg" src="assets/image/backImg.jpg" alt="login">
+                <div class="text">
+                  <span class="text-1">Complete miles of journey <br> with one step</span>
+                  <span class="text-2">Let's get started</span>
+                </div>
+              </div>
+            </div>
+            <div class="forms">
+                <div class="form-content">
+                  <div class="login-form">
+                    <div class="title">Login</div>
+                  <form action="#">
+                    <div class="input-boxes">
+                      <div class="input-box">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Enter your email" required="">
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Enter your password" required="">
+                      </div>
+                      <div class="text"><a href="#">Forgot password?</a></div>
+                      <div class="button input-box">
+                        <input type="submit" value="Sumbit">
+                      </div>
+                      <div class="text sign-up-text">Don't have an account? <label for="flip">Signup now</label></div>
+                    </div>
+                </form>
+              </div>
+                <div class="signup-form">
+                  <div class="title">Signup</div>
+                <form action="#">
+                    <div class="input-boxes">
+                      <div class="input-box">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Enter your name" required="">
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Enter your email" required="">
+                      </div>
+                      <div class="input-box">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Enter your password" required="">
+                      </div>
+                      <div class="button input-box">
+                        <input type="submit" value="Sumbit">
+                      </div>
+                      <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
+                    </div>
+              </form>
+            </div>
+            </div>
             </div>
           </div>
-        </div>
-      </div>
     </section>
-
-
-
-    
-  </main>
-
-  <footer class="footer-area bg-1 pt-5 mt-50">
+</main>
+  <footer class="footer-area bg-1 pt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-2 mb-2 d-flex align-items-center ">

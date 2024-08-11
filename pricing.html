@@ -124,7 +124,7 @@
 
                   </div>
                   <div class="price-btn p-2 mb-3">
-                    <a href="pricing.html" class="common-btn-2 border-color-2 color-2 w-100">Select this Plan</a>
+                    <a href="checkout.html" class="common-btn-2 border-color-2 color-2 w-100">Select this Plan</a>
                   </div>
               </div>
           </div>
@@ -157,7 +157,7 @@
 
                   </div>
                   <div class="price-btn p-2 mb-3">
-                    <a href="pricing.html" class="common-btn-2 border-color-3 color-3 w-100">Select this Plan</a>
+                    <a href="checkout.html" class="common-btn-2 border-color-3 color-3 w-100">Select this Plan</a>
                   </div>
               </div>
           </div>
@@ -187,7 +187,7 @@
 
                 </div>
                 <div class="price-btn p-2 mb-3">
-                  <a href="pricing.html" class="common-btn-2 border-color-1 color-1 w-100">Select this Plan</a>
+                  <a href="checkout.html" class="common-btn-2 border-color-1 color-1 w-100">Select this Plan</a>
                 </div>
             </div>
         </div>
@@ -227,7 +227,8 @@
                   </p>
                 </div>
                 <div class="about-btn mt-2">
-                  <button class="common-btn">Meet An Attorny Now</button>
+                  <button class="common-btn" type="button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalMeet">Meet An Attorny  </button>
                 </div>
               </div>
             </div>
@@ -312,6 +313,124 @@
     </div>
   
   </footer>
+   
+       <!-- Modal -->
+   <div class="modal" id="exampleModalMeet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+
+      <div class="modal-content ">
+        <div class="modal-header">
+          <div class="content-body-title">
+            <h5 class="color-3 font-18 font-500">Get Legal Advice</h5>
+          </div>
+          <button type="button" class="btn-close color-1" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="contact-form">
+            <div class="mb-3">
+              <div class="row">
+                 <div class="col-md-6">
+                   <input type="text" placeholder="First Name" class="form-control" id="first-name">
+                 </div>
+                 <div class="col-md-6">
+                   <input type="text" placeholder="Last Name" class="form-control" id="last-name">
+                 </div>
+              </div>
+            </div>
+      
+            <div class="mb-3">
+              <div class="row">
+                 <div class="col-md-6">
+                   <input type="email" placeholder="Email" class="form-control" id="email">
+                 </div>
+                 <div class="col-md-6">
+                   <input type="tel" placeholder="Phone Number" class="form-control" id="phone">
+                 </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="row">
+                 <div class="col-md-12">
+                   <select name="law" id="law"  placeholder="Select field of law" class="form-select">
+                     <option value="">Business</option>
+                     <option value="">Family</option>
+                     <option value="">Bankruptcy</option>
+                   </select>
+                 </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="row">
+                 <div class="col-md-12">
+                   <textarea placeholder="Message" class="form-control" id="address" cols="10" rows="5"></textarea>
+                 </div>
+              </div>
+            </div>
+            <div class="check-term">
+             <div class="terms position-relative">
+                 <input type="checkbox" id="all">
+                 <label for="all">
+                   Agree to Terms and conditions
+                </label>
+             </div>
+            </div>
+            <div class="submit-btn mt-4 text-center">
+             <button class="common-btn bg-1 border-0 w-50" type="button" data-bs-toggle="modal"
+             data-bs-target="#Continue">Continue</button>
+           </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal" id="Continue" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+
+     <div class="modal-content ">
+       <div class="modal-header">
+         <div class="content-body-title">
+           <h5 class="color-3 font-18 font-500">Retainer</h5>
+         </div>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+        <div class="card border-0 shadow text-center p-2">
+         <div class="llc pb-3">
+           <h5 class="font-18 font-500 text-decoration-underline black-color pb-2"> LEVENSON LAW LLC</h5>
+           <p>625 W 51st Street <br>
+             New York, NY 10019<br>
+             Tel. (347) 352-2470<br>
+             Fax (201) 632-4822<br>
+             Email slevensonesq@gmail.com<br>
+             Admitted to Practice in NJ, NY, PA & CT</p>
+         </div>
+         <div class="llc pb-3">
+           <h5 class="font-18 font-500 text-decoration-underline black-color pb-2"> Retainer</h5>
+           <p>This Litigation Retainer is provided to you, the Client, in order to memorialize an agreement between you and the Firm, pursuant to which the Firm will provide certain legal services described in more detail below in the Scope of Representation section.T</p>
+         </div>
+         <div class="llc pb-3">
+           <h5 class="font-18 font-500 text-decoration-underline black-color pb-2"> A. SCOPE OF REPRESENTATION:</h5>
+           <p>This Litigation Retainer is provided to you, the Client, in order to memorialize an agreement between you and the Firm, pursuant to which the Firm will provide certain legal services described in more detail below in the Scope of Representation section.T</p>
+         </div>
+         <div class="check-term pb-3">
+           <div class="terms position-relative">
+               <input type="checkbox" id="retainer">
+               <label for="retainer">
+                 I have read and agree to the above retainer
+              </label>
+           </div>
+          </div>
+        </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="common-btn bg-1 border-color-3" data-bs-dismiss="modal">Close</button>
+         <a href="payment-attorney.html"  class="common-btn ">Continue</a>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
   <!-- Scripts -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/popper.min.js"></script>

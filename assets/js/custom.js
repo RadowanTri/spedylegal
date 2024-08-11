@@ -96,4 +96,9 @@ $('.videos-icon').magnificPopup({
       srcAction: 'iframe_src',
     }
   });
+  var loadFile = function (event) {
+    var image = document.getElementById("output");
+    image.src = URL.createObjectURL(event.target.files[0]);
+  };
+  
 })(window.jQuery);
